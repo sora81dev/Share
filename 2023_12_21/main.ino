@@ -77,7 +77,7 @@ void loop() {
               analogWrite(8, 125);
               analogWrite(9, 150);
               analogWrite(10, 0);
-            } else if (A1 <= A7 && A1 <= A3 <= A1 <= A0) {  //右が最も大きい時
+            } else if (A1 <= A7 && A1 <= A3 && A1 <= A0) {  //右が最も大きい時
               analogWrite(5, 0);
               analogWrite(6, 0);
               analogWrite(7, 125);
